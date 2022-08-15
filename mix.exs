@@ -39,6 +39,7 @@ defmodule ExMon.MixProject do
       {:postgrex, ">= 0.0.0"},
       {:phoenix_live_dashboard, "~> 0.2"},
       {:esbuild, "~> 0.3", runtime: Mix.env() == :dev},
+      {:ex_doc, "~> 0.27", only: :dev, runtime: false},
       {:swoosh, "~> 1.3"},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
